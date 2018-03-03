@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5F4943E4204A5F38007E2B69 /* WSPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4943E2204A5F38007E2B69 /* WSPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F4943F2204A5F83007E2B69 /* MGPlayerDownLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EB204A5F83007E2B69 /* MGPlayerDownLoader.swift */; };
-		5F4943F3204A5F83007E2B69 /* MGPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EC204A5F83007E2B69 /* MGPlayerControlView.swift */; };
-		5F4943F4204A5F83007E2B69 /* MGResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943ED204A5F83007E2B69 /* MGResourceLoader.swift */; };
-		5F4943F5204A5F83007E2B69 /* MGPlayerCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EE204A5F83007E2B69 /* MGPlayerCommon.swift */; };
-		5F4943F6204A5F83007E2B69 /* MGPlayControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EF204A5F83007E2B69 /* MGPlayControlProtocol.swift */; };
-		5F4943F7204A5F83007E2B69 /* MGPlayerFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943F0204A5F83007E2B69 /* MGPlayerFileManager.swift */; };
-		5F4943F8204A5F83007E2B69 /* MGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943F1204A5F83007E2B69 /* MGPlayer.swift */; };
+		5F4943F2204A5F83007E2B69 /* WSPlayerDownLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EB204A5F83007E2B69 /* WSPlayerDownLoader.swift */; };
+		5F4943F3204A5F83007E2B69 /* WSPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EC204A5F83007E2B69 /* WSPlayerControlView.swift */; };
+		5F4943F4204A5F83007E2B69 /* WSResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943ED204A5F83007E2B69 /* WSResourceLoader.swift */; };
+		5F4943F5204A5F83007E2B69 /* WSPlayerCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EE204A5F83007E2B69 /* WSPlayerCommon.swift */; };
+		5F4943F6204A5F83007E2B69 /* WSPlayControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943EF204A5F83007E2B69 /* WSPlayControlProtocol.swift */; };
+		5F4943F7204A5F83007E2B69 /* WSPlayerFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943F0204A5F83007E2B69 /* WSPlayerFileManager.swift */; };
+		5F4943F8204A5F83007E2B69 /* WSPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943F1204A5F83007E2B69 /* WSPlayer.swift */; };
 		5F494400204A5FB0007E2B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4943FF204A5FB0007E2B69 /* AppDelegate.swift */; };
 		5F494402204A5FB0007E2B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F494401204A5FB0007E2B69 /* ViewController.swift */; };
 		5F494405204A5FB0007E2B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F494403204A5FB0007E2B69 /* Main.storyboard */; };
@@ -55,13 +55,13 @@
 		5F4943DF204A5F38007E2B69 /* WSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4943E2204A5F38007E2B69 /* WSPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPlayer.h; sourceTree = "<group>"; };
 		5F4943E3204A5F38007E2B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F4943EB204A5F83007E2B69 /* MGPlayerDownLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPlayerDownLoader.swift; sourceTree = "<group>"; };
-		5F4943EC204A5F83007E2B69 /* MGPlayerControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPlayerControlView.swift; sourceTree = "<group>"; };
-		5F4943ED204A5F83007E2B69 /* MGResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGResourceLoader.swift; sourceTree = "<group>"; };
-		5F4943EE204A5F83007E2B69 /* MGPlayerCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPlayerCommon.swift; sourceTree = "<group>"; };
-		5F4943EF204A5F83007E2B69 /* MGPlayControlProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPlayControlProtocol.swift; sourceTree = "<group>"; };
-		5F4943F0204A5F83007E2B69 /* MGPlayerFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPlayerFileManager.swift; sourceTree = "<group>"; };
-		5F4943F1204A5F83007E2B69 /* MGPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPlayer.swift; sourceTree = "<group>"; };
+		5F4943EB204A5F83007E2B69 /* WSPlayerDownLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPlayerDownLoader.swift; sourceTree = "<group>"; };
+		5F4943EC204A5F83007E2B69 /* WSPlayerControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPlayerControlView.swift; sourceTree = "<group>"; };
+		5F4943ED204A5F83007E2B69 /* WSResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSResourceLoader.swift; sourceTree = "<group>"; };
+		5F4943EE204A5F83007E2B69 /* WSPlayerCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPlayerCommon.swift; sourceTree = "<group>"; };
+		5F4943EF204A5F83007E2B69 /* WSPlayControlProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPlayControlProtocol.swift; sourceTree = "<group>"; };
+		5F4943F0204A5F83007E2B69 /* WSPlayerFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPlayerFileManager.swift; sourceTree = "<group>"; };
+		5F4943F1204A5F83007E2B69 /* WSPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPlayer.swift; sourceTree = "<group>"; };
 		5F4943FD204A5FB0007E2B69 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4943FF204A5FB0007E2B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F494401204A5FB0007E2B69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,13 +141,13 @@
 		5F4943EA204A5F73007E2B69 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5F4943EF204A5F83007E2B69 /* MGPlayControlProtocol.swift */,
-				5F4943F1204A5F83007E2B69 /* MGPlayer.swift */,
-				5F4943EE204A5F83007E2B69 /* MGPlayerCommon.swift */,
-				5F4943EC204A5F83007E2B69 /* MGPlayerControlView.swift */,
-				5F4943EB204A5F83007E2B69 /* MGPlayerDownLoader.swift */,
-				5F4943F0204A5F83007E2B69 /* MGPlayerFileManager.swift */,
-				5F4943ED204A5F83007E2B69 /* MGResourceLoader.swift */,
+				5F4943EF204A5F83007E2B69 /* WSPlayControlProtocol.swift */,
+				5F4943F1204A5F83007E2B69 /* WSPlayer.swift */,
+				5F4943EE204A5F83007E2B69 /* WSPlayerCommon.swift */,
+				5F4943EC204A5F83007E2B69 /* WSPlayerControlView.swift */,
+				5F4943EB204A5F83007E2B69 /* WSPlayerDownLoader.swift */,
+				5F4943F0204A5F83007E2B69 /* WSPlayerFileManager.swift */,
+				5F4943ED204A5F83007E2B69 /* WSResourceLoader.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -382,13 +382,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4943F2204A5F83007E2B69 /* MGPlayerDownLoader.swift in Sources */,
-				5F4943F5204A5F83007E2B69 /* MGPlayerCommon.swift in Sources */,
-				5F4943F7204A5F83007E2B69 /* MGPlayerFileManager.swift in Sources */,
-				5F4943F8204A5F83007E2B69 /* MGPlayer.swift in Sources */,
-				5F4943F3204A5F83007E2B69 /* MGPlayerControlView.swift in Sources */,
-				5F4943F4204A5F83007E2B69 /* MGResourceLoader.swift in Sources */,
-				5F4943F6204A5F83007E2B69 /* MGPlayControlProtocol.swift in Sources */,
+				5F4943F2204A5F83007E2B69 /* WSPlayerDownLoader.swift in Sources */,
+				5F4943F5204A5F83007E2B69 /* WSPlayerCommon.swift in Sources */,
+				5F4943F7204A5F83007E2B69 /* WSPlayerFileManager.swift in Sources */,
+				5F4943F8204A5F83007E2B69 /* WSPlayer.swift in Sources */,
+				5F4943F3204A5F83007E2B69 /* WSPlayerControlView.swift in Sources */,
+				5F4943F4204A5F83007E2B69 /* WSResourceLoader.swift in Sources */,
+				5F4943F6204A5F83007E2B69 /* WSPlayControlProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
