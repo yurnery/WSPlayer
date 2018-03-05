@@ -52,10 +52,10 @@ public class WSPlayer: UIView {
         return current / duration
     }
     
-    public private(set) var isFullScrrrn = false {
+    public private(set) var isFullScreen = false {
         didSet{
-            isEnterFullScreenClosure?(isFullScrrrn)
-            bottomView.updateFullBtn(selected: isFullScrrrn)
+            isEnterFullScreenClosure?(isFullScreen)
+            bottomView.updateFullBtn(selected: isFullScreen)
         }
     }
     
@@ -134,7 +134,7 @@ extension WSPlayer: WSPlayControlDelegate {
     }
     
     public func fullScreen() {
-        isFullScrrrn = true
+        isFullScreen = true
         playerLayer.transform = CATransform3DMakeRotation(.pi/2, 0, 0, 1)
         bottomView.transform = CGAffineTransform(rotationAngle: .pi/2)
         frame = UIScreen.main.bounds
@@ -144,7 +144,7 @@ extension WSPlayer: WSPlayControlDelegate {
     }
     
     public func halfScreen() {
-        isFullScrrrn = false
+        isFullScreen = false
         playerLayer.transform = CATransform3DIdentity
         bottomView.transform = CGAffineTransform.identity
         frame = originFrame
